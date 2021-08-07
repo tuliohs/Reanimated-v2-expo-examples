@@ -69,42 +69,42 @@ const SCREENS = {
         screen: AnimatedStyleUpdateExample,
         title: 'Animated Style Update',
     },
-    //  WobbleExample: {
+    //WobbleExample: {
     //    screen: WobbleExample,
     //    title: 'Animation Modifiers (Wobble Effect)',
-    //  },
-    //  DragAndSnapExample: {
-    //    screen: DragAndSnapExample,
-    //    title: 'Drag and Snap',
-    //  },
-    //  MeasureExample: {
-    //    screen: MeasureExample,
-    //    title: 'Synchronous Measure',
-    //  },
-    //  ScrollEventExample: {
-    //    screen: ScrollEventExample,
-    //    title: 'Scroll Events',
-    //  },
-    //  ChatHeadsExample: {
-    //    screen: ChatHeadsExample,
-    //    title: 'Chat Heads',
-    //  },
-    //  ScrollableToExample: {
-    //    screen: ScrollToExample,
-    //    title: 'scrollTo',
-    //  },
-    //  SwipeableListExample: {
-    //    screen: SwipeableListExample,
-    //    title: '(advanced) Swipeable List',
-    //  },
-    //  LightboxExample: {
-    //    screen: LightboxExample,
-    //    title: '(advanced) Lightbox',
-    //  },
-    //  ScrollableViewExample: {
-    //    screen: ScrollableViewExample,
-    //    title: '(advanced) ScrollView imitation',
-    //  },
+    //},
+    DragAndSnapExample: {
+        screen: DragAndSnapExample,
+        title: 'Drag and Snap',
+    },
+    MeasureExample: {
+        screen: MeasureExample,
+        title: 'Synchronous Measure',
+    },
+    ScrollEventExample: {
+        screen: ScrollEventExample,
+        title: 'Scroll Events',
+    },
+    ChatHeadsExample: {
+        screen: ChatHeadsExample,
+        title: 'Chat Heads',
+    },
+    ScrollableToExample: {
+        screen: ScrollToExample,
+        title: 'scrollTo',
+    },
+    SwipeableListExample: {
+        screen: SwipeableListExample,
+        title: '(advanced) Swipeable List',
+    },
+    LightboxExample: {
+        screen: LightboxExample,
+        title: '(advanced) Lightbox',
+    },
+    ScrollableViewExample: {
+        screen: ScrollableViewExample,
+        title: '(advanced) ScrollView imitation',
+    },
     AnimatedTabBarExample: {
         screen: AnimatedTabBarExample,
         title: '(advanced) Tab Bar Example',
@@ -113,10 +113,10 @@ const SCREENS = {
     //    screen: LiquidSwipe,
     //    title: 'Liquid Swipe Example',
     //  },
-    //  ExtrapolationExample: {
-    //    screen: ExtrapolationExample,
-    //    title: 'Extrapolation Example',
-    //  },
+    ExtrapolationExample: {
+        screen: ExtrapolationExample,
+        title: 'Extrapolation Example',
+    },
     ScrollExample: {
         screen: ScrollExample,
         title: 'Scroll Example',
@@ -199,7 +199,7 @@ function Reanimated() {
 
     return (
         <NavigationContainer>
-            {/*<Reanimated2 />*/}
+            <Reanimated2 />
             {/*<AnimatedTabBarExample />*/}
             {/*<ScrollExample />*/}
             {/*<AnimatedStyleUpdateExample />*/}
@@ -212,7 +212,7 @@ function Reanimated() {
             {/*<ScrollableViewExample />*/}
             {/*<ScrollToExample />*/}
             {/*<LightboxExample/>*/}
-            <LiquidSwipe />
+            {/*<LiquidSwipe />*/}
         </NavigationContainer>
     );
 }
@@ -238,4 +238,4 @@ export const styles = StyleSheet.create({
     },
 });
 
-export default Reanimated;
+export default Reanimated

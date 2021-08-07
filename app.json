@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Reanimate-v2-expo",
-    "slug": "Reanimate-v2-expo",
+    "name": "Reanimated-v2-expo",
+    "slug": "Reanimated-v2-expo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

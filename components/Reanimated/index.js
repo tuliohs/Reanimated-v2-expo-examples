@@ -12,7 +12,7 @@ import AnimatedTabBarExample from './AnimatedTabBarExample';
 import ScrollExample from './AnimatedScrollExample';
 
 import ExtrapolationExample from './ExtrapolationExample';
-//import WobbleExample from './WobbleExample';
+import WobbleExample from './WobbleExample';
 import DragAndSnapExample from './DragAndSnapExample';
 import ScrollEventExample from './ScrollEventExample';
 import ChatHeadsExample from './ChatHeadsExample';
@@ -21,7 +21,7 @@ import SwipeableListExample from './SwipeableListExample';
 import ScrollableViewExample from './ScrollableViewExample';
 import ScrollToExample from './ScrollToExample';
 import LightboxExample from './LightboxExample';
-//import LiquidSwipe from './LiquidSwipe';
+import LiquidSwipe from './LiquidSwipe';
 LogBox.ignoreLogs(['Calling `getNode()`']);
 
 const SCREENS = {
@@ -69,10 +69,10 @@ const SCREENS = {
         screen: AnimatedStyleUpdateExample,
         title: 'Animated Style Update',
     },
-    //WobbleExample: {
-    //    screen: WobbleExample,
-    //    title: 'Animation Modifiers (Wobble Effect)',
-    //},
+    WobbleExample: {
+        screen: WobbleExample,
+        title: 'Animation Modifiers (Wobble Effect)',
+    },
     DragAndSnapExample: {
         screen: DragAndSnapExample,
         title: 'Drag and Snap',
@@ -109,10 +109,10 @@ const SCREENS = {
         screen: AnimatedTabBarExample,
         title: '(advanced) Tab Bar Example',
     },
-    //  LiquidSwipe: {
-    //    screen: LiquidSwipe,
-    //    title: 'Liquid Swipe Example',
-    //  },
+    LiquidSwipe: {
+        screen: LiquidSwipe,
+        title: 'Liquid Swipe Example',
+    },
     ExtrapolationExample: {
         screen: ExtrapolationExample,
         title: 'Extrapolation Example',
